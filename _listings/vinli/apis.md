@@ -8,11 +8,41 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-
 x-kinRank: "7"
 x-alexaRank: "2170360"
 tags: Run
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/run/master/_listings/vinli/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Vinli - Create a Dummy Run
+  x-api-slug: dummies01e668ba696745369f72cc28ff18d7b6runs-post
+  description: Create a dummy run.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
+  humanURL: http://vinli.com
+  baseURL: https://events.vin.li//api/v1
+  tags: Mobile, Technology, Automobiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/run/master/_listings/vinli/dummies01e668ba696745369f72cc28ff18d7b6runs-post-openapi.md
+- name: Vinli - Get Current Run
+  x-api-slug: dummies01e668ba696745369f72cc28ff18d7b6runs-current-get
+  description: Get current run.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
+  humanURL: http://vinli.com
+  baseURL: https://events.vin.li//api/v1
+  tags: Mobile, Technology, Automobiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/run/master/_listings/vinli/dummies01e668ba696745369f72cc28ff18d7b6runs-current-get-openapi.md
+- name: Vinli - Delete a Run
+  x-api-slug: dummies01e668ba696745369f72cc28ff18d7b6runs-current-delete
+  description: Delete a run.
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg
+  humanURL: http://vinli.com
+  baseURL: https://events.vin.li//api/v1
+  tags: Mobile, Technology, Automobiles, Service API, Relative Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/run/master/_listings/vinli/dummies01e668ba696745369f72cc28ff18d7b6runs-current-delete-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.vin.li/rss/

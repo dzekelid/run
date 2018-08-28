@@ -7,11 +7,22 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apime
 x-kinRank: "10"
 x-alexaRank: "2264063"
 tags: Run
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/run/master/_listings/apimetrics/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: APImetrics Merged API - Trigger an API Call to run
+  x-api-slug: callsidrun-post
+  description: Trigger an API Call to run
+  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1916-apimetrics.jpg
+  humanURL: http://apimetrics.io
+  baseURL: https:///
+  tags: Monitoring, My API Stack, SaaS, Technology, API Service Provider, SDIO Partner,
+    Profiles
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/run/master/_listings/apimetrics/callsidrun-post-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://apimatic.api.gallery.streamdata.io

@@ -9,11 +9,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Run
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/run/master/_listings/aws-server-migration-service/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS Server Migration Service API - Delete Replication Job
+  x-api-slug: actiondeletereplicationjob-get
+  description: The delete-replication-job API is used to delete a ReplicationJob,
+    resulting in no further ReplicationRuns.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2_AMI.png
+  humanURL: https://aws.amazon.com/server-migration-service/
+  baseURL: :///
+  tags: Amazon Web Services, Stack Network, API Service Provider, API Service Provider,
+    API Provider, Databases, Migrations, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/run/master/_listings/aws-server-migration-service/actiondeletereplicationjob-get-openapi.md
 - name: AWS Server Migration Service API - Get Replication Runs
   x-api-slug: actiongetreplicationruns-get
   description: The get-replication-runs API will return all ReplicationRuns for a

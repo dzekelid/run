@@ -16,11 +16,35 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "10"
 x-alexaRank: "0"
 tags: Run
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/run/master/_listings/aws-ec2/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: AWS EC2 API - Run Instances
+  x-api-slug: actionruninstances-get
+  description: |-
+    Launches the specified number of instances using an AMI for which you have
+                permissions.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/run/master/_listings/aws-ec2/actionruninstances-get-openapi.md
+- name: AWS EC2 API - Run Scheduled Instances
+  x-api-slug: actionrunscheduledinstances-get
+  description: Launches the specified Scheduled Instances.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
+  humanURL: https://aws.amazon.com/ec2/
+  baseURL: :///
+  tags: Amazon Web Services, Compute, Stack Network, Stack, API Service Provider,
+    API Service Provider, API Provider, Profiles, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/run/master/_listings/aws-ec2/actionrunscheduledinstances-get-openapi.md
 x-common:
 - type: x-api-gallery
   url: http://aws.dynamodb.api.gallery.streamdata.io
